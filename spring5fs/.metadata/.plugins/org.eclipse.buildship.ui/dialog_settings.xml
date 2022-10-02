@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.buildship.ui.wizard.project.import">
+		<item key="project_location" value="/Users/nohyunha/Documents/dev/spring5fs/sp5-chap02"/>
+		<item key="gradle_distribution" value="GRADLE_DISTRIBUTION(VERSION(4.4))"/>
+		<item key="java_home" value="/Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home"/>
+	</section>
+</section>
