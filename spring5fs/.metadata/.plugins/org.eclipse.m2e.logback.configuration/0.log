@@ -332,3 +332,24 @@ Caused by: java.lang.Exception: File not found: /Users/nohyunha/Documents/dev/sp
 2022-10-02 17:33:12,659 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nohyunha/Documents/dev/spring5fs/sp5-chap03/src/main/resources
 2022-10-02 17:33:12,662 [Worker-92: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2022-10-02 17:33:12,662 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nohyunha/Documents/dev/spring5fs/sp5-chap03/src/test/resources
+2022-10-03 10:06:22,336 [Worker-9: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-10-03 10:06:26,232 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-10-03 10:06:26,238 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nohyunha/Documents/dev/Spring-TIL/spring5fs/sp5-chap03/src/main/resources
+2022-10-03 10:06:26,252 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-10-03 10:06:26,253 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nohyunha/Documents/dev/Spring-TIL/spring5fs/sp5-chap03/src/test/resources
+2022-10-03 10:07:07,812 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-10-03 10:07:07,818 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nohyunha/Documents/dev/Spring-TIL/spring5fs/sp5-chap03/src/main/resources
+2022-10-03 10:07:07,823 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-10-03 10:07:07,825 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nohyunha/Documents/dev/Spring-TIL/spring5fs/sp5-chap03/src/test/resources
+2022-10-03 10:07:21,768 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-10-03 10:07:21,770 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nohyunha/Documents/dev/Spring-TIL/spring5fs/sp5-chap03/src/main/resources
+2022-10-03 10:07:21,776 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-10-03 10:07:21,777 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nohyunha/Documents/dev/Spring-TIL/spring5fs/sp5-chap03/src/test/resources
+2022-10-03 10:36:04,867 [Worker-33: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-10-03 10:36:04,873 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nohyunha/Documents/dev/Spring-TIL/spring5fs/sp5-chap03/src/main/resources
+2022-10-03 10:36:04,876 [Worker-33: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-10-03 10:36:04,877 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nohyunha/Documents/dev/Spring-TIL/spring5fs/sp5-chap03/src/test/resources
+2022-10-03 21:25:53,772 [Worker-43: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-10-03 21:25:53,785 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nohyunha/Documents/dev/Spring-TIL/spring5fs/sp5-chap03/src/main/resources
+2022-10-03 21:25:53,796 [Worker-43: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-10-03 21:25:53,796 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nohyunha/Documents/dev/Spring-TIL/spring5fs/sp5-chap03/src/test/resources
