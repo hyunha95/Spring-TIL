@@ -371,3 +371,7 @@ Caused by: java.lang.Exception: File not found: /Users/nohyunha/Documents/dev/sp
 2022-10-06 22:00:51,956 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nohyunha/Documents/dev/Spring-TIL/spring5fs/sp5-chap03/src/main/resources
 2022-10-06 22:00:51,976 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2022-10-06 22:00:51,977 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nohyunha/Documents/dev/Spring-TIL/spring5fs/sp5-chap03/src/test/resources
+2022-10-06 22:18:03,398 [Worker-21: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-10-06 22:18:03,402 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nohyunha/Documents/dev/Spring-TIL/spring5fs/sp5-chap03/src/main/resources
+2022-10-06 22:18:03,406 [Worker-21: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-10-06 22:18:03,408 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nohyunha/Documents/dev/Spring-TIL/spring5fs/sp5-chap03/src/test/resources
