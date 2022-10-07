@@ -27,7 +27,7 @@ public class MainForAssembler {
 				processNewCommand(command.split(" " ));
 				continue;
 			} else if(command.startsWith("change ")) {
-//				processChangeCommand(command.split(" "));
+				processChangeCommand(command.split(" "));
 				continue;
 			}
 			printHelp();
