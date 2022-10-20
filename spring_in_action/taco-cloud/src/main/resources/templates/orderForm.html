@@ -7,10 +7,21 @@
     <link rel="stylesheet" th:href="@{/styles.css}">
 </head>
 <body>
-    <form th:action="@{/orders}" th:object="${order}" method="post">
+<form method="POST" th:action="@{/logout}" id="logoutForm">
+    <input type="submit" value="Logout">
+</form>
+
+    <form th:action="@{/orders}" th:object="${order}" method="post" id="orderForm">
         <h1>Order your taco creations!</h1>
         <img th:src="@{/images/TacoCould.png}"/>
+        <h3>Your tacos in this order : </h3>
         <a th:href="@{/design}" id="another">Design another taco</a>
+
+        <ul>
+            <li th:each="taco: ${order.tacos}">
+                <span th:text="${taco.name}">taco name</span>
+            </li>
+        </ul>
 
         <div th:if="${#fields.hasErrors()}">
             <span class="validationError">
@@ -68,11 +79,11 @@
               th:errors="*{ccExpiration}">CC Num Error</span>
         <br>
 
-        <label for="ccCVV">CVV: </label>
-        <input type="text" th:field="*{ccCVV}">
+        <label for="ccVV">CVV: </label>
+        <input type="text" th:field="*{ccVV}">
         <span class="validationError"
-              th:if="${#fields.hasErrors('ccCVV')}"
-              th:errors="*{ccCVV}">CC Num Error</span>
+              th:if="${#fields.hasErrors('ccVV')}"
+              th:errors="*{ccVV}">CC Num Error</span>
         <br>
 
         <input type="submit" value="Submit order">
