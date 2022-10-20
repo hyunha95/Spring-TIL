@@ -62,4 +62,7 @@ public class Order implements Serializable {
 
 	}
 
+	@ManyToOne
+	private User user;
+
 }
