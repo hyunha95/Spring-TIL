@@ -15,3 +15,11 @@ Lsrc/main/java/com/jojoldu/book/springboot/web/dto/PostsUpdateRequestDto.java,c
 Osrc/test/java/com/jojoldu/book/springboot/domain/posts/PostsRepositoryTest.java,1\9\194f178d371d1ec5cd07a767b42c2d61ab938930
 v
 Fsrc/test/java/com/jojoldu/book/springboot/web/IndexControllerTest.java,0\6\062cde1c0bfed72d89f80e2440b6e52df1e9d4ec
+z
+Jsrc/main/java/com/jojoldu/book/springboot/web/dto/PostsSaveRequestDto.java,6\8\6826b42b06a36a706bbe17a5d313d0f3fc6aa744
+{
+Ksrc/main/java/com/jojoldu/book/springboot/web/dto/PostsListResponseDto.java,e\5\e5203b97a6f8628697041513a8d521d8b71861dc
+q
+Asrc/main/java/com/jojoldu/book/springboot/domain/posts/Posts.java,e\d\eddd4dc565ee8788209caf84e2ed97fdcd927e15
+{
+Ksrc/main/java/com/jojoldu/book/springboot/domain/posts/PostsRepository.java,2\9\292c7389eb01550158057e9a6bf620847d3333ea
