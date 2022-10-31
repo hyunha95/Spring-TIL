@@ -21,7 +21,8 @@ public class TodoEntity {
     private boolean done; // true - todo를 완료한 경우(checked)
 
     @Builder
-    public TodoEntity(String userId, String title, boolean done) {
+    public TodoEntity(String id, String userId, String title, boolean done) {
+        this.id = id;
         this.userId = userId;
         this.title = title;
         this.done = done;
