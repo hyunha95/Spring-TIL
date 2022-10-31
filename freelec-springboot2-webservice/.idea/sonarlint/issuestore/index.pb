@@ -23,3 +23,7 @@ Asrc/main/java/com/jojoldu/book/springboot/domain/posts/Posts.java,e\d\eddd4dc5
 Ksrc/main/java/com/jojoldu/book/springboot/domain/posts/PostsRepository.java,2\9\292c7389eb01550158057e9a6bf620847d3333ea
 y
 Isrc/main/java/com/jojoldu/book/springboot/service/posts/PostsService.java,a\5\a57ec2401dae3fbb267ec0922e58e721824d7fa5
+o
+?src/main/java/com/jojoldu/book/springboot/domain/user/User.java,0\0\00bc88b053ebb4a5d7b26ab7c201044f5b52d993
+o
+?src/main/java/com/jojoldu/book/springboot/domain/user/Role.java,3\9\3905916e16fcaf6bbc882920318a5968217a9cb0
