@@ -1,8 +1,6 @@
 
 y
 Isrc/test/java/com/jojoldu/book/springboot/web/PostsApiControllerTest.java,2\5\25a556b1dc4beeaeea0f2ab6af0bc4d48f21ac3d
-<
-build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
 j
 :src/main/java/com/jojoldu/book/springboot/Application.java,c\7\c747908ca5effbd98a7dce59f72b8b75e7c3b22f
 t
@@ -23,3 +21,5 @@ q
 Asrc/main/java/com/jojoldu/book/springboot/domain/posts/Posts.java,e\d\eddd4dc565ee8788209caf84e2ed97fdcd927e15
 {
 Ksrc/main/java/com/jojoldu/book/springboot/domain/posts/PostsRepository.java,2\9\292c7389eb01550158057e9a6bf620847d3333ea
+y
+Isrc/main/java/com/jojoldu/book/springboot/service/posts/PostsService.java,a\5\a57ec2401dae3fbb267ec0922e58e721824d7fa5
