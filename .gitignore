@@ -283,4 +283,5 @@ gradle-app.setting
 # Java heap dump
 *.hprof
 
+application-oauth.properties
 # End of https://www.toptal.com/developers/gitignore/api/macos,intellij,gradle,maven,eclipse,java
