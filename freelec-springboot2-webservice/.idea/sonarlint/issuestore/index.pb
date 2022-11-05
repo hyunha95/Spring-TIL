@@ -33,8 +33,6 @@ u
 Esrc/main/java/com/jojoldu/book/springboot/web/PostsApiController.java,5\8\58eef62e7a4218ff3a99dcfcea136de3a42e966a
 r
 Bsrc/main/java/com/jojoldu/book/springboot/web/IndexController.java,0\0\00b1af89bae87c28ac669d67450f2b7d76807ce4
-<
-build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
 y
 Isrc/test/java/com/jojoldu/book/springboot/web/PostsApiControllerTest.java,2\5\25a556b1dc4beeaeea0f2ab6af0bc4d48f21ac3d
 r
