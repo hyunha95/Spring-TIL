@@ -45,3 +45,9 @@ o
 ?src/main/java/com/jojoldu/book/springboot/config/JpaConfig.java,d\0\d03a04fc37fc80add69165de1053dc80f20019d5
 v
 Fsrc/test/java/com/jojoldu/book/springboot/web/HelloControllerTest.java,e\c\ec06abb4d21168a05f9772c0213dda2e5238f646
+<
+build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
+q
+Asrc/main/java/com/jojoldu/book/springboot/domain/posts/Posts.java,e\d\eddd4dc565ee8788209caf84e2ed97fdcd927e15
+{
+Ksrc/main/java/com/jojoldu/book/springboot/domain/posts/PostsRepository.java,2\9\292c7389eb01550158057e9a6bf620847d3333ea
