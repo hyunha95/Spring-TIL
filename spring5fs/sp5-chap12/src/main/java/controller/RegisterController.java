@@ -11,6 +11,7 @@ import spring.DuplicateMemberException;
 import spring.MemberRegisterService;
 import spring.RegisterRequest;
 
+import javax.validation.Valid;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -45,16 +46,15 @@ public class RegisterController {
 		return "redirect:/register/step1";
 	}
 
-	@PostMapping("/register/step3")
-	public String handleStep3(RegisterRequest regReq, Errors errors) {
-		new RegisterRequestValidator().validate(regReq, errors);
-
+	@PostMapping(value = "/register/step3")
+	public String handleStep3(@Valid RegisterRequest regReq, Errors errors) {
 		if(errors.hasErrors())
 			return "/register/step2";
 		try {
 			memberRegisterService.regist(regReq);
 			return "/register/step3";
 		} catch (DuplicateMemberException ex) {
+			errors.rejectValue("email", "duplicate");
 			return "/register/step2";
 		}
 	}
