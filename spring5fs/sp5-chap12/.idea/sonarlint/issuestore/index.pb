@@ -1,3 +1,27 @@
 
 _
 /src/main/java/spring/MemberRegisterService.java,7\c\7c987d6864815aa1581d71352a3e7995ac0b7c45
+f
+6src/main/java/controller/RegisterRequestValidator.java,9\5\95cf0ca80f44cd42b59abbab187920e227d2c2da
+_
+/src/main/webapp/WEB-INF/view/register/step3.jsp,a\1\a17955f181c4c2b7399412dbe24cdad98081efa2
+_
+/src/main/webapp/WEB-INF/view/register/step2.jsp,0\5\05bb20aae4d59dc44d0cbd77bb8f44eb67eea9e4
+w
+G.idea/sonarlint/issuestore/7/c/7c987d6864815aa1581d71352a3e7995ac0b7c45,f\4\f4c3858edc0f8ae7d49b001db32c3a4052924bb4
+Y
+)src/main/java/spring/RegisterRequest.java,5\8\58cfc12ba22cd77db47de0a86bf8b4ec0c455d2b
+7
+pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
+R
+"src/main/java/spring/AuthInfo.java,f\d\fd6bea3d29d33b425f5a78526c801eeea32766f8
+P
+ src/main/java/spring/Member.java,7\9\798f4a896e852fde4758185d3154a0f8cd548cd5
+Z
+*src/main/java/controller/LoginCommand.java,b\3\b3beb2a9fc27d0b917a0f7128f9cfee933abfed6
+c
+3src/main/java/controller/LoginCommandValidator.java,9\d\9ddb98a5a443dd8ba1a68d43f3c1b5d50244faa3
+U
+%src/main/java/spring/AuthService.java,3\8\38d6f767daa2c506a7346cb1e575ac6c564d5462
+S
+#src/main/java/spring/MemberDao.java,f\0\f0494087c58ad4dbf79045102978e2e5b15301f8
