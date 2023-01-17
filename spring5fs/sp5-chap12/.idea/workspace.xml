@@ -9,15 +9,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6636b064-e2d5-40a5-8828-114cf9434082" name="Changes" comment="@Valid">
+    <list default="true" id="6636b064-e2d5-40a5-8828-114cf9434082" name="Changes" comment="HttpSession">
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/config/ControllerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/ControllerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/config/MemberConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/MemberConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/ChangePwdController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/ChangePwdController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/message/label.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/message/label.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/login/loginForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/login/loginForm.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/main.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/register/step1.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/register/step1.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -192,6 +189,8 @@
       <workItem from="1673579465554" duration="3234000" />
       <workItem from="1673826287454" duration="1230000" />
       <workItem from="1673838131359" duration="2627000" />
+      <workItem from="1673911946930" duration="2012000" />
+      <workItem from="1673925373688" duration="2386000" />
     </task>
     <task id="LOCAL-00001" summary="커맨드 객체 검증">
       <created>1673497138093</created>
@@ -207,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673583074802</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="HttpSession">
+      <created>1673913947927</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1673913947927</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,6 +222,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="커맨드 객체 검증" />
     <MESSAGE value="@Valid" />
-    <option name="LAST_COMMIT_MESSAGE" value="@Valid" />
+    <MESSAGE value="HttpSession" />
+    <option name="LAST_COMMIT_MESSAGE" value="HttpSession" />
   </component>
 </project>
