@@ -9,12 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6636b064-e2d5-40a5-8828-114cf9434082" name="Changes" comment="HttpSession">
+    <list default="true" id="6636b064-e2d5-40a5-8828-114cf9434082" name="Changes" comment="인터셉터, 쿠키">
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/config/ControllerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/ControllerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/ChangePwdController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/ChangePwdController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/message/label.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/message/label.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spring/MemberDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring/MemberDao.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jsp File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -191,6 +190,14 @@
       <workItem from="1673838131359" duration="2627000" />
       <workItem from="1673911946930" duration="2012000" />
       <workItem from="1673925373688" duration="2386000" />
+      <workItem from="1673997552673" duration="2480000" />
+      <workItem from="1674085219571" duration="3436000" />
+      <workItem from="1674603792633" duration="1220000" />
+      <workItem from="1674615353589" duration="2048000" />
+      <workItem from="1674689507568" duration="624000" />
+      <workItem from="1675207638129" duration="600000" />
+      <workItem from="1675209704377" duration="7000" />
+      <workItem from="1675293303729" duration="1798000" />
     </task>
     <task id="LOCAL-00001" summary="커맨드 객체 검증">
       <created>1673497138093</created>
@@ -213,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673913947927</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="인터셉터, 쿠키">
+      <created>1673999485171</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1673999485171</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,6 +237,7 @@
     <MESSAGE value="커맨드 객체 검증" />
     <MESSAGE value="@Valid" />
     <MESSAGE value="HttpSession" />
-    <option name="LAST_COMMIT_MESSAGE" value="HttpSession" />
+    <MESSAGE value="인터셉터, 쿠키" />
+    <option name="LAST_COMMIT_MESSAGE" value="인터셉터, 쿠키" />
   </component>
 </project>

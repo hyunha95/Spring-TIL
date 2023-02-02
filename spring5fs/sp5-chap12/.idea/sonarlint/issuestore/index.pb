@@ -19,8 +19,6 @@ P
  src/main/java/spring/Member.java,7\9\798f4a896e852fde4758185d3154a0f8cd548cd5
 c
 3src/main/java/controller/LoginCommandValidator.java,9\d\9ddb98a5a443dd8ba1a68d43f3c1b5d50244faa3
-S
-#src/main/java/spring/MemberDao.java,f\0\f0494087c58ad4dbf79045102978e2e5b15301f8
 ^
 .src/main/java/controller/LogoutController.java,f\6\f695ff6faa2626dbca0f6fe445caf86e84796e04
 c
@@ -33,3 +31,17 @@ g
 0src/main/java/controller/RegisterController.java,0\5\050d616b6f70735c45c9c218bd33fe0d92a30e1c
 ^
 .src/main/java/controller/ChangePwdCommand.java,a\b\ab5430500c814f8d70c1ccd2f5ba69a60109443e
+c
+3src/main/webapp/WEB-INF/view/edit/changePwdForm.jsp,f\2\f245db7c279d957bf95c36cd3ac38abf9bdd9ff9
+_
+/src/main/webapp/WEB-INF/view/edit/changePwd.jsp,1\8\18ae9b5bd4df297fcaac116d39c93a562f051b49
+U
+%src/main/java/spring/AuthService.java,3\8\38d6f767daa2c506a7346cb1e575ac6c564d5462
+a
+1src/main/java/controller/ChangePwdController.java,8\9\8908e201872993ce585a8e3a795ce23e115de96f
+c
+3src/main/java/interceptor/AuthCheckInterceptor.java,d\3\d34b4028f8e1b2e6e97e3412294c6924d4d3dbc9
+Z
+*src/main/java/controller/LoginCommand.java,b\3\b3beb2a9fc27d0b917a0f7128f9cfee933abfed6
+]
+-src/main/java/controller/LoginController.java,d\9\d915cdbef77c656eebfb7602fce5b0a8962b2b51
