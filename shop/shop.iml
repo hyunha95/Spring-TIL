@@ -134,10 +134,10 @@
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-devtools:2.7.5" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot:2.7.5" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.7.5" level="project" />
-    <orderEntry type="library" name="Maven: nz.net.ultraq.thymeleaf:thymeleaf-layout-dialect:2.5.0" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: nz.net.ultraq.extensions:groovy-extensions:0.3.0" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: nz.net.ultraq.thymeleaf:thymeleaf-expression-processor:1.2.0" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: org.codehaus.groovy:groovy:3.0.13" level="project" />
+    <orderEntry type="library" name="Maven: nz.net.ultraq.thymeleaf:thymeleaf-layout-dialect:3.0.0" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.groovy:groovy:3.0.13" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: nz.net.ultraq.extensions:groovy-extensions:1.1.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: nz.net.ultraq.thymeleaf:thymeleaf-expression-processor:3.0.0" level="project" />
     <orderEntry type="library" name="Maven: org.thymeleaf:thymeleaf:3.0.15.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: ognl:ognl:3.1.26" level="project" />
     <orderEntry type="library" name="Maven: org.javassist:javassist:3.20.0-GA" level="project" />
