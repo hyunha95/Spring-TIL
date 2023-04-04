@@ -5,9 +5,10 @@
 
 <!-- 사용자 스크립트 추가 -->
 <th:block layout:fragment="script">
+
     <script th:inline="javascript">
         $(document).ready(function() {
-           const errorMessage = [[${errorMeesage}]];
+           const errorMessage = [[${errorMessage}]];
            if(errorMessage != null) {
                alert(errorMessage);
            }
@@ -59,7 +60,7 @@
 
         <div class="form-group">
             <select th:field="*{itemSellStatus}" class="custom-select">
-                <option value="SELL">판메중</option>
+                <option value="SELL">판매중</option>
                 <option value="SOLD_OUT">품절</option>
             </select>
         </div>
