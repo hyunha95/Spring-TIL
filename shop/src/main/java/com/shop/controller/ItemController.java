@@ -74,7 +74,7 @@ public class ItemController {
 			return "item/itemForm";
 		}
 
-		if(itemImgFileList.get(0).isEmpty() && itemFormDto.getId() == null) {
+		if (itemImgFileList.get(0).isEmpty() && itemFormDto.getId() == null) {
 			model.addAttribute("errorMessage", "첫 번째 상품 이미지는 필수 입력 값 입니다.");
 			return "item/itemForm";
 		}
@@ -90,7 +90,7 @@ public class ItemController {
 
 	@GetMapping(value = {"/admin/items", "/admin/items/{page}"})
 	public String itemManage(ItemSearchDto itemSearchDto, @PathVariable("page") Optional<Integer> page, Model model) {
-		Pageable pageable = PageRequest.of(page.isPresent() ? page.get() : 0 , 3);
+		Pageable pageable = PageRequest.of(page.isPresent() ? page.get() : 0, 3);
 
 		Page<Item> items = itemService.getAdminItemPage(itemSearchDto, pageable);
 		model.addAttribute("items", items);
@@ -98,4 +98,12 @@ public class ItemController {
 		model.addAttribute("maxPage", 5);
 		return "item/itemMng";
 	}
+
+	@GetMapping(value = "/item/{itemId}")
+	public String itemDtl(Model model, @PathVariable("itemId") Long itemId) {
+		ItemFormDto itemFormDto = itemService.getItemDtl(itemId);
+		model.addAttribute("item", itemFormDto);
+		return "item/itemDtl";
+	}
+
 }
