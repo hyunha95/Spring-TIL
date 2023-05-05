@@ -1,7 +1,7 @@
 package io.spring.batch;
 
 import io.spring.batch.incrementer.DailyJobTimestamper;
-import io.spring.batch.listener.JobLoggerListener;
+import io.spring.batch.listener.annotation.JobLoggerListener;
 import io.spring.batch.validator.ParameterValidator;
 import org.springframework.batch.core.Job;
 import org.springframework.batch.core.JobParametersValidator;
@@ -12,6 +12,7 @@ import org.springframework.batch.core.configuration.annotation.StepBuilderFactor
 import org.springframework.batch.core.configuration.annotation.StepScope;
 import org.springframework.batch.core.job.CompositeJobParametersValidator;
 import org.springframework.batch.core.job.DefaultJobParametersValidator;
+import org.springframework.batch.core.listener.JobListenerFactoryBean;
 import org.springframework.batch.core.step.tasklet.Tasklet;
 import org.springframework.batch.repeat.RepeatStatus;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -38,7 +39,8 @@ public class SpringBatchApplication {
                 .start(step1()) // 시작
                 .validator(validator()) // 검증
                 .incrementer(new DailyJobTimestamper()) // 잡 파라미터 증가시키기
-                .listener(new JobLoggerListener()) // 잡 리스너 적용
+//                .listener(new JobLoggerListener()) // 잡 리스너 적용 (인터페이스를 구현한 경우)
+                .listener(JobListenerFactoryBean.getListener(new JobLoggerListener())) // 잡 리스너 적용 (어노테이션 기반 설정)
                 .build();
     }
 
