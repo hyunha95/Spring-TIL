@@ -2,6 +2,7 @@ package io.spring.batch;
 
 import io.spring.batch.incrementer.DailyJobTimestamper;
 import io.spring.batch.listener.annotation.JobLoggerListener;
+import io.spring.batch.tasklet.ExploringTasklet;
 import io.spring.batch.validator.ParameterValidator;
 import org.springframework.batch.core.Job;
 import org.springframework.batch.core.JobParametersValidator;
@@ -10,6 +11,7 @@ import org.springframework.batch.core.configuration.annotation.EnableBatchProces
 import org.springframework.batch.core.configuration.annotation.JobBuilderFactory;
 import org.springframework.batch.core.configuration.annotation.StepBuilderFactory;
 import org.springframework.batch.core.configuration.annotation.StepScope;
+import org.springframework.batch.core.explore.JobExplorer;
 import org.springframework.batch.core.job.CompositeJobParametersValidator;
 import org.springframework.batch.core.job.DefaultJobParametersValidator;
 import org.springframework.batch.core.listener.JobListenerFactoryBean;
@@ -22,6 +24,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
 import java.util.Arrays;
+import java.util.Properties;
 
 @EnableBatchProcessing
 @SpringBootApplication
@@ -32,6 +35,28 @@ public class SpringBatchApplication {
 
     @Autowired
     private StepBuilderFactory stepBuilderFactory;
+
+    @Autowired
+    private JobExplorer jobExplorer;
+
+    @Bean
+    public Tasklet explorerTasklet() {
+        return new ExploringTasklet(this.jobExplorer);
+    }
+
+    @Bean
+    public Step explorerStep() {
+        return this.stepBuilderFactory.get("explorerStep")
+                .tasklet(explorerTasklet())
+                .build();
+    }
+
+    @Bean
+    public Job explorerJob() {
+        return this.jobBuilderFactory.get("explorerJob")
+                .start(explorerStep())
+                .build();
+    }
 
     @Bean
     public Job job() {
@@ -123,7 +148,14 @@ public class SpringBatchApplication {
 
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringBatchApplication.class, args);
+        // 애플리케이션 기동 시 잡이 실행되지 않게 구성하기
+        SpringApplication application = new SpringApplication(SpringBatchApplication.class);
+
+        Properties properties = new Properties();
+        properties.put("spring.batch.job.enabled", false);
+        application.setDefaultProperties(properties);
+
+        application.run(args);
     }
 
 }
