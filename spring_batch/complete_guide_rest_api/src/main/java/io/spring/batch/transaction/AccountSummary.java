@@ -1,4 +1,4 @@
-package io.spring.batch.domain;
+package io.spring.batch.transaction;
 
 public class AccountSummary {
     private int id;

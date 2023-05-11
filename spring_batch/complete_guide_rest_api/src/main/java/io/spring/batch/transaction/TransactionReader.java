@@ -1,9 +1,10 @@
-package io.spring.batch.reader;
+package io.spring.batch.transaction;
 
-import io.spring.batch.domain.Transaction;
 import org.springframework.batch.core.ExitStatus;
 import org.springframework.batch.core.StepExecution;
 import org.springframework.batch.core.annotation.AfterStep;
+import org.springframework.batch.item.ExecutionContext;
+import org.springframework.batch.item.ItemStreamException;
 import org.springframework.batch.item.ItemStreamReader;
 import org.springframework.batch.item.file.transform.FieldSet;
 
@@ -49,5 +50,20 @@ public class TransactionReader implements ItemStreamReader<Transaction> {
         } else {
             return ExitStatus.STOPPED;
         }
+    }
+
+    @Override
+    public void open(ExecutionContext executionContext) throws ItemStreamException {
+        this.fieldSetReader.open(executionContext);
+    }
+
+    @Override
+    public void update(ExecutionContext executionContext) throws ItemStreamException {
+        this.fieldSetReader.update(executionContext);
+    }
+
+    @Override
+    public void close() throws ItemStreamException {
+        this.fieldSetReader.close();
     }
 }
