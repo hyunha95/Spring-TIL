@@ -154,6 +154,9 @@ public class TransactionJob {
                 .build();
     }
 
+    /**
+     * 프로그래밍적으로 잡 중지
+     */
     @Bean
     public Job transactionJob1() {
         return this.jobBuilderFactory.get("transactionJob1")
@@ -164,4 +167,16 @@ public class TransactionJob {
                 .end()
                 .build();
     }
+
+    /**
+     * StepExecution을 사용해 잡 중지
+     */
+//    @Bean
+//    public Job transactionJob2() {
+//        return this.jobBuilderFactory.get("transactionJob2")
+//                .start(importTransactionFileStep())
+//                .next(applyTransactionStep())
+//                .next(generateAccountSummaryStep())
+//                .build();
+//    }
 }
