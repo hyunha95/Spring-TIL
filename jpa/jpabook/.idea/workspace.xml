@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9512a3cf-c231-4bba-8f1a-3f5fff747c7a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../spring_batch/complete_guide_item_reader/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring_batch/complete_guide_item_reader/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring_batch/complete_guide_item_reader/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring_batch/complete_guide_item_reader/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring_batch/complete_guide_item_reader/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring_batch/complete_guide_item_reader/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring_batch/complete_guide_item_reader/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring_batch/complete_guide_item_reader/src/main/java/io/spring/batch/CompleteGuideItemReaderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring_batch/complete_guide_item_reader/src/main/java/io/spring/batch/entity/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring_batch/complete_guide_item_reader/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring_batch/complete_guide_item_reader/src/main/resources/input/customerFixedWidth.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring_batch/complete_guide_item_reader/src/test/java/io/spring/batch/CompleteGuideItemReaderApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex1-hello-jpa/src/main/java/hellojpa/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ex1-hello-jpa/src/main/java/hellojpa/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex1-hello-jpa/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ex1-hello-jpa/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2QDzeKYOc1nupBulkPwEsVIoKnR" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$" />
+      <setting name="debug" value="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="jpabook" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="jpabook" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9512a3cf-c231-4bba-8f1a-3f5fff747c7a" name="Changes" comment="" />
+      <created>1684903036353</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1684903036353</updated>
+      <workItem from="1684903037365" duration="59000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
