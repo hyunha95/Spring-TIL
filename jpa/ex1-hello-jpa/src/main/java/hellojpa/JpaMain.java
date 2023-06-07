@@ -1,9 +1,7 @@
 package hellojpa;
 
-import javax.persistence.EntityManager;
-import javax.persistence.EntityManagerFactory;
-import javax.persistence.EntityTransaction;
-import javax.persistence.Persistence;
+import javax.persistence.*;
+import java.util.List;
 
 public class JpaMain {
 
@@ -16,25 +14,21 @@ public class JpaMain {
         tx.begin();
 
         try {
-            Member member = new Member();
-            member.setUsername("hello");
+            Child child1 = new Child();
+            Child child2 = new Child();
 
-            em.persist(member);
+            Parent parent = new Parent();
+            parent.addChild(child1);
+            parent.addChild(child2);
+
+            em.persist(parent);
+
             em.flush();
             em.clear();
 
-//            Member findMember = em.find(Member.class, member.getId());
+            Parent findParent = em.find(Parent.class, parent.getId());
+            findParent.getChildren().remove(0);
 
-            Member findMember = em.getReference(Member.class, member.getId());
-            System.out.println("findMember.getId() = " + findMember.getId());
-            System.out.println("findMember.getUsername() = " + findMember.getUsername());
-
-
-
-//            Member member = em.find(Member.class, 1L);
-//
-//            printMember(member);
-//            printMemberAndTeam(member);
 
             tx.commit();
         } catch(Exception e) {
