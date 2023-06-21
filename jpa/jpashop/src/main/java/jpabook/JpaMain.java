@@ -1,6 +1,7 @@
 package jpabook;
 
 import jpabook.jpashop.domain.Book;
+import jpabook.jpashop.domain.Member;
 import jpabook.jpashop.domain.Order;
 import jpabook.jpashop.domain.OrderItem;
 
@@ -8,6 +9,9 @@ import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.EntityTransaction;
 import javax.persistence.Persistence;
+import javax.persistence.criteria.CriteriaBuilder;
+import javax.persistence.criteria.CriteriaQuery;
+import java.util.List;
 
 public class JpaMain {
     public static void main(String[] args) {
@@ -19,11 +23,16 @@ public class JpaMain {
         tx.begin();
 
         try {
-            Book book = new Book();
-            book.setName("JPA");
-            book.setAuthor("김영한");
+//            List<Member> resultList = em.createQuery(
+//                    "select m from Member m where m.name like '%kim%'",
+//                    Member.class
+//            ).getResultList();
+//            for (Member member : resultList) {
+//                System.out.println("member = " + member);
+//            }
 
-            em.persist(book);
+            CriteriaBuilder cb = em.getCriteriaBuilder();
+            CriteriaQuery<Member> query = cb.createQuery(Member.class);
 
             tx.commit();
         } catch (Exception e) {
