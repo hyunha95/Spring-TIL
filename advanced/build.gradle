@@ -28,7 +28,7 @@ dependencies {
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 
 	// 테스트에서 lombok 사용
-	testCompileOnly 'org.projectlombok:lombok'
+	testCompileOnly 'org.projectlombok:lombok' 
 	testAnnotationProcessor 'org.projectlombok:lombok'
 }
 
