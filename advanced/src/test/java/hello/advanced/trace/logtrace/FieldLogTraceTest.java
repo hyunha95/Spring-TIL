@@ -1,9 +1,8 @@
 package hello.advanced.trace.logtrace;
 
-import hello.advanced.trace.TraceStatus;
+import hello.advanced.advanced.trace.TraceStatus;
+import hello.advanced.advanced.trace.logtrace.FieldLogTrace;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class FieldLogTraceTest {
 

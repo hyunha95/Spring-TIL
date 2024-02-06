@@ -1,5 +1,7 @@
 package hello.advanced.trace.strategy.code.strategy;
 
+import hello.advanced.advanced.trace.strategy.code.strategy.Strategy;
+
 public class StrategyLogic2 implements Strategy {
     @Override
     public void call() {
