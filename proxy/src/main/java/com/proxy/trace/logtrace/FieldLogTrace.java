@@ -1,7 +1,7 @@
 package com.proxy.trace.logtrace;
 
-import hello.proxy.trace.TraceId;
-import hello.proxy.trace.TraceStatus;
+import com.proxy.trace.TraceId;
+import com.proxy.trace.TraceStatus;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
